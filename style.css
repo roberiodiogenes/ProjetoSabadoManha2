@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(221, 255, 0); /* Cor de fundo */
+    max-width: 1000px; /* Largura máxima permitida - RESPONSIVO*/
+    margin: auto; /* Centraliza*/
+    height: 300px;
+}
+
+div#capa{
+    background-color: cornflowerblue; /* Cor de fundo*/
+    width: 100%; /*Faz a div ocupar 100% da largura da HEADER*/
+    height: 300px; /*Altura da capa*/
+    background-image: url('capa.jpg'); /*Coloca uma imagem de fundo na div*/
+    background-size: cover; /*Ajusta o tamanho da imagem*/
+    background-repeat: no-repeat; /*Não repetir a imagem*/
+    background-position: center; /*Posiciona a imagem no meio da div*/
+    color: white; /*Define a cor da fonte da DIV*/
+    /*YRMPORARIO*/
+    font-family: Arial, Helvetica, sans-serif; /*Muda a fonte*/
+}
