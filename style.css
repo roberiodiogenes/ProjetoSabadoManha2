@@ -15,6 +15,31 @@ div#capa{
     color: white; /*Define a cor da fonte da DIV*/
     /*YRMPORARIO*/
     font-family: Arial, Helvetica, sans-serif; /*Muda a fonte*/
+    position: relative; /*Posicionamento do pai deve ser Relativo*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#capa>H1{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.834); /*Sombra do texto**/
+}
+
+#capa>p{
+    position: absolute;
+    top: 150px;
+    background-color: rgb(31, 31, 31);
+    padding: 5px;
+}
+
+div#sociais{
+    width: 160px;
+    position: absolute; /*Posicionamento do filho deve ser absoluto*/
+    right: 20px;
+    top: 20px;
+    display: flex; /*Deixa os elementos internos "soltos" para serem posicionados*/
+    justify-content: space-between; /*Distribui os elementos interno na horizontal*/
 }
 
 img.sociais{
@@ -22,6 +47,6 @@ img.sociais{
     filter: invert(1) opacity(.7) drop-shadow(0px 0px 0px rgb(0, 34, 255)); /*Aplica filtros a imagems*/
 }
 
-img.sociais:hover{
+img.sociais:hover{ /*Quando passar o mouser por cima*/
     filter: invert(1) opacity(1);
 }

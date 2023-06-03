@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <style>
+        /* Posicionamento
+        1 Fixo: Fixed
+        2 Relative
+        3 Absolute
+        4 Static */
+        div#pai{
+            width: 500px; /*Largura*/
+            height: 500px; /*Altura*/
+            background-color: cornflowerblue;
+            position: relative;
+            display: flex; /*Deixa oss elementos internos "soltos"*/
+            justify-content: space-between; /*Alinha na horiozontal*/
+            align-items: center; /*Alinhamenot VERTICAL*/
+        }
+        div#filho{
+            width: 180px;
+            height: 50px;
+            background-color: bisque;
+
+            position: absolute;
+            
+            
+            
+        }
+    </style>
+    <header>
+        <div id="pai">
+            <div id="filho">
+                <h1>Filho</h1>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
