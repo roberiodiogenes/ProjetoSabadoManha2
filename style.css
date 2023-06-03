@@ -1,8 +1,7 @@
-header{
-    background-color: rgb(221, 255, 0); /* Cor de fundo */
+header, main, footer{
     max-width: 1000px; /* Largura máxima permitida - RESPONSIVO*/
     margin: auto; /* Centraliza*/
-    height: 300px;
+    /* height: 300px; */
 }
 
 div#capa{
