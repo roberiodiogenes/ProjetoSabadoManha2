@@ -50,3 +50,22 @@ img.sociais{
 img.sociais:hover{ /*Quando passar o mouser por cima*/
     filter: invert(1) opacity(1);
 }
+
+footer{
+    background-color: cornflowerblue; /*Cor de fundo*/
+    color: white; /*Cor da fonte*/
+    height: 70px; /*Altura*/
+    display: flex; /*Torna os elementos internos flexiveis*/
+    justify-content: center; /*Centro horizontal*/
+    align-items: center; /*Centro vertical*/
+}
+
+img.fotos{
+    width: 300px; /*Largura das imagnes*/
+    margin: 0px; /*Margem externa*/
+}
+
+div.div{
+    display: flex;
+    margin: 10px;
+}
