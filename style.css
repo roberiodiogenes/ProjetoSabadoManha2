@@ -1,10 +1,10 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 250, 243);
 }
 
 header, main, footer{
     max-width: 1000px; /* Largura máxima permitida - RESPONSIVO*/
-    margin: auto; /* Centraliza*/
+   margin: auto;
     /* height: 300px; */
 }
 
@@ -20,28 +20,30 @@ div#capa{
     /*YRMPORARIO*/
     font-family: Arial, Helvetica, sans-serif; /*Muda a fonte*/
     position: relative; /*Posicionamento do pai deve ser Relativo*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; /*Deixar os elementos internos (Filhos) flexiveis (Soltos)*/
+    flex-direction: column; /*Alinnha os elementos internos um abaixo do outro de cima para baixo*/
+    justify-content: center; /*Alinhamento Vertical*/
+    align-items: center; /*Alinhamento Horizontal*/
 }
 
 #capa>H1{
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.834); /*Sombra do texto**/
+    text-shadow: 3px 3px 3px black; /*Sombra do texto**/
 }
 
 #capa>p{
-    position: absolute;
-    top: 150px;
-    background-color: rgb(31, 31, 31);
-    padding: 5px;
+    position: absolute; /*Permite que o elemento mude de lugar*/
+    top: 165px; /*distancia a partir do topo*/
+    background-color: rgb(31, 31, 31); /*Configura a cor de fundo0 do paragrafo*/
+    padding: 5px; /*Define o espaçamento interno*/
 }
 
 div#sociais{
+    /* background-color: blueviolet; Temporário */
     width: 160px;
-    position: absolute; /*Posicionamento do filho deve ser absoluto*/
-    right: 20px;
-    top: 20px;
+    /*position: absolute; /*Posicionamento do filho deve ser absoluto*/
+    /* bottom: 20px; */
+    /* right: 20px; */
+   
     display: flex; /*Deixa os elementos internos "soltos" para serem posicionados*/
     justify-content: space-between; /*Distribui os elementos interno na horizontal*/
 }
@@ -68,6 +70,21 @@ img.fotos{
     width: 300px; /*Largura das imagnes*/
     margin: 0px; /*Margem externa*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div.div{
     display: flex;
