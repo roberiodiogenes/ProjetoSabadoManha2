@@ -1,0 +1,43 @@
+header, main, footer{
+    max-width: 1000px; /* Largura máxima */
+    margin: auto; /* Centralizar */
+}
+
+div#capa{
+    background-color: aqua; /* Cor de fundo */
+    width: 100%; /* Largura */
+    height: 300px; /* Altura */
+    background-image: url('capa2.jpg'); /* Add uma imagem na div */
+    background-repeat: no-repeat; /* Imagem não repete */
+    background-size: cover; /* Ajusta o tamanho da imagem */
+    background-position: center; /* Centraliza a imagem */
+    display: flex; /* Torna o conteúdo flexivel */
+    justify-content: center; /* Alinhamento vertical */
+    align-items: center; /* Alinhamento horizontal */
+}
+
+#capa > h1{
+    color: aliceblue; /* Cor do texto */
+}
+
+footer{
+    background-color: dodgerblue;
+    display: flex; /* Torna o conteúdo flexivel */
+    justify-content: center; /* Alinhamento vertical */
+    align-items: center; /* Alinhamento horizontal */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div#images{
+    width: 100%;
+    display: flex;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
